@@ -27,8 +27,8 @@ public class PersonController {
     }
 
     @GetMapping
-    public PersonDTO listAll() {
-        return (PersonDTO) personService.listAll();
+    public List<PersonDTO> listAll() {
+        return personService.listAll();
     }
 
     @PostMapping
