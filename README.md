@@ -3,7 +3,7 @@
 Este é um sistema simples para o gerenciamento de pessoas 
 através de uma API REST, criada com o Spring Boot, baseado em um curso da DIO.me.
 
-O projeto está rodando no HEROKU [aqui](https://personapi-fcc7a5e6efc0.herokuapp.com/api/v1/people)
+O projeto está rodando no HEROKU [aqui](https://personapi-fcc7a5e6efc0.herokuapp.com/juhcarvalho/api/v1/people)
 
 O sistema possui os seguintes tópicos:
 
