@@ -3,16 +3,16 @@
 Este é um sistema simples para o gerenciamento de pessoas 
 através de uma API REST, criada com o Spring Boot, baseado em um curso da DIO.me.
 
-<!--
+O projeto está rodando no HEROKU [aqui](https://personapi-fcc7a5e6efc0.herokuapp.com/api/v1/people)
+
 O sistema possui os seguintes tópicos:
 
 * Controller -> Recebe as requisições
-* <Modelo de dados para o mapeamento de entidades em bancos de dados
+* Entity -> Modelo de dados para o mapeamento de entidades em bancos de dados
+* Mapper -> Mapeamento entre a Entidade e o DTO
 * Desenvolvimento de operações de gerenciamento de usuários (Cadastro, leitura, atualização e remoção de pessoas de um sistema).
-* Relação de cada uma das operações acima com o padrão arquitetural REST, e a explicação de cada um dos conceitos REST envolvidos durante o desenvolvimento do projeto.
-* Desenvolvimento de testes unitários para validação das funcionalidades
+* Cada uma das operações acima usando o padrão arquitetural REST
 * Implantação do sistema na nuvem através do Heroku
--->
 
 Para executar o projeto no terminal, digite o seguinte comando:
 
@@ -35,6 +35,18 @@ http://localhost:8080/api/v1/people
 * Controle de versão GIT instalado na sua máquina.
 * Conta no GitHub para o armazenamento do seu projeto na nuvem.
 * Conta no Heroku para o deploy do projeto na nuvem
+
+### Postman exemplo: 
+#### GET - Obter dados
+<img width="872" height="806" alt="image" src="https://github.com/user-attachments/assets/15449ad9-ae86-4453-85ee-05144af17a8c" />
+<img width="844" height="687" alt="image" src="https://github.com/user-attachments/assets/42e05516-2a1a-4c94-8cc1-594d4f650399" />
+
+#### POST - Criação
+<img width="969" height="674" alt="image" src="https://github.com/user-attachments/assets/d3714d86-b1ec-47f5-8d7e-3b96c2405767" />
+
+#### PUT - Atualização
+<img width="967" height="722" alt="image" src="https://github.com/user-attachments/assets/d5627a36-7a31-49c0-857c-6c55ef13d8de" />
+
 
 ### Links úteis:
 * [Referência do Intellij IDEA Community, para download](https://www.jetbrains.com/idea/download)
